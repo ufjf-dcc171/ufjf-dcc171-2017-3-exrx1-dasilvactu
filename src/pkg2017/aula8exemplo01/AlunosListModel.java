@@ -40,7 +40,7 @@ public class AlunosListModel implements ListModel<Aluno> {
 
     @Override
     public void removeListDataListener(ListDataListener l) {
-       this.dataListeners.add(l);
+       this.dataListeners.remove(l);
     }
     
 }

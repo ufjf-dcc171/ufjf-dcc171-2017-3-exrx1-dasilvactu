@@ -40,7 +40,7 @@ public class TurmasListModel implements ListModel<Turma> {
 
     @Override
     public void removeListDataListener(ListDataListener l) {
-       this.dataListeners.add(l);
+       this.dataListeners.remove(l);
     }
     
 }
