@@ -89,8 +89,8 @@ public class JanelaTurmas extends JFrame {
         criaAluno.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                janelaAluno.setVisible(true);
-                janelaAluno.setLocationRelativeTo(null);
+                janelaAluno.solicitaNovoAluno();
+                
                 
             }
         });

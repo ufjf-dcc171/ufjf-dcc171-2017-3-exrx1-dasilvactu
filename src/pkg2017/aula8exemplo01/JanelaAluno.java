@@ -57,6 +57,14 @@ public class JanelaAluno extends JFrame {
     public void setJanelaTurmas(JanelaTurmas janelaTurmas) {
         this.janelaTurmas = janelaTurmas;
     }
+
+    void solicitaNovoAluno() {
+        setVisible(true);
+        setLocationRelativeTo(null);
+        txtNome.setText("");
+        txtMatricula.setText("");
+        txtMatricula.requestFocus();
+    }
     
     
     
