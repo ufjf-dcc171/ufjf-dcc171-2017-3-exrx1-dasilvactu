@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package pkg2017.aula8exemplo01;
+package pkg2017.Trabalho;
 
 import java.util.Date;
 import java.util.List;

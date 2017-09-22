@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package pkg2017.aula8exemplo01;
+package pkg2017.Trabalho;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -13,7 +13,7 @@ import javax.swing.JFrame;
  *
  * @author ice
  */
-public class Aula8Exemplo01 {
+public class TrabalhoAula {
 
     /**
      * @param args the command line arguments
