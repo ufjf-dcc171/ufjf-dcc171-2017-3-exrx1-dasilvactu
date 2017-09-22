@@ -14,23 +14,23 @@ import javax.swing.event.ListDataListener;
  *
  * @author ice
  */
-public class TurmasListModel implements ListModel<Turma> {
+public class RelampagosListModel implements ListModel<Relampago> {
 
-    private final List<Turma> turmas;
+    private final List<Relampago> relampagos;
     private final List<ListDataListener> dataListeners;
-    public TurmasListModel(List<Turma> turmas) {
-        this.turmas = turmas;
+    public RelampagosListModel(List<Relampago> relampagos) {
+        this.relampagos= relampagos;
         this.dataListeners = new ArrayList<>();
     }
 
     @Override
     public int getSize() {
-       return turmas.size();
+       return relampagos.size();
     }
 
     @Override
-    public Turma getElementAt(int index) {
-       return turmas.get(index);
+    public Relampago getElementAt(int index) {
+       return relampagos.get(index);
     }
 
     @Override

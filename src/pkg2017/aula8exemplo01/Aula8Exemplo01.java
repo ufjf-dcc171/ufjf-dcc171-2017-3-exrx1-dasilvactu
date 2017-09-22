@@ -20,36 +20,14 @@ public class Aula8Exemplo01 {
      */
     public static void main(String[] args) {
         
-        JanelaTurmas janela = new JanelaTurmas(getSampleData());
-        janela.setSize(500,300);
+        JanelaRelampago janela = new JanelaRelampago();
+        janela.setSize(400,300);
         janela.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         janela.setLocationRelativeTo(null);
         janela.setVisible(true);
 
     }
 
-    private static List<Turma> getSampleData() {
-        // TODO code application logic here
-        
-        Aluno a1 = new Aluno("201365123", "Jose da Silva");
-        Aluno a2 = new Aluno("201365122", "Silva");
-        Aluno a3 = new Aluno("201365121", "Joseph");
-        Aluno a4 = new Aluno("201365125", "Joseano");
-        Aluno a5 = new Aluno("201365126", "Silvanildo");
-        
-        Turma t1 = new Turma("DCC171");
-        Turma t2 = new Turma("DCC109");
-        
-        t1.getAlunos().add(a1);
-        t1.getAlunos().add(a2);
-        t2.getAlunos().add(a3);
-        t2.getAlunos().add(a4);
-        t2.getAlunos().add(a5);
-        
-        List<Turma> turmas = new ArrayList<>();
-        turmas.add(t1);
-        turmas.add(t2);
-        return turmas;
-    }
+    
     
 }
